@@ -4,6 +4,7 @@ python -m venv venv
 ./venv/scripts/active
 pip install django
 django-admin startproject project .
+python manage.py startapp contact
 
 Configurar o git
 
